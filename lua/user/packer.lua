@@ -1,8 +1,21 @@
 vim.cmd [[packadd packer.nvim]]
 
+-- automatically run PackerSync when this file changes
+vim.cmd([[
+  augroup packer_user_config
+    autocmd!
+    autocmd BufWritePost packer.lua source <afile> | PackerSync
+  augroup end
+]])
+
 return require('packer').startup(function(use)
-  -- Packer can manage itself
-  use 'wbthomason/packer.nvim'
-  use 'folke/tokyonight.nvim'
+  use 'wbthomason/packer.nvim' -- packer itself
+  use 'folke/tokyonight.nvim' -- theme
+
+  use "nvim-lua/plenary.nvim" -- general functions, common dependency
+  use {
+    'nvim-telescope/telescope.nvim', tag = '0.1.0',
+    requires = { {'nvim-lua/plenary.nvim'} }
+  }
 end)
 
