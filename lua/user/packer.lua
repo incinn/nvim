@@ -11,6 +11,7 @@ vim.cmd([[
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim' -- packer itself
   use 'folke/tokyonight.nvim' -- theme
+  use 'nvim-tree/nvim-web-devicons' -- icons
 
   use "nvim-lua/plenary.nvim" -- general functions, common dependency
   use {
