@@ -31,6 +31,9 @@ return require('packer').startup(function(use)
             -- your configuration comes here
         }
     end
-    }
+  }
+
+  use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
+
 end)
 
