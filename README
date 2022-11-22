@@ -30,4 +30,13 @@ Create a directory `d`
 A collection of helper functions
 https://github.com/nvim-lua/plenary.nvim
 
+# Telescope
+install `ripgrep` and `fd`
 
+`nvim-treesitter` is a dependency
+
+# Treesitter
+
+Once installed run `:TSUpdate`. Might fail first try.
+
+Install parsers https://github.com/nvim-treesitter/nvim-treesitter#supported-languages
