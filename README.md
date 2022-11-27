@@ -38,6 +38,11 @@ Install parsers https://github.com/nvim-treesitter/nvim-treesitter#supported-lan
 ### LSP
 install nvim_lspconfig
 
+### Null-ls
+https://github.com/jose-elias-alvarez/null-ls.nvim
+
+Install `eslint`
+
 #### Typescript
 `npm install -g typescript typescript-language-server`
 

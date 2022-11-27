@@ -34,6 +34,7 @@ return require('packer').startup(function(use)
   }
 
   use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
+  use 'jose-elias-alvarez/null-ls.nvim' -- formatters and linters
 
   -- completion
   use 'hrsh7th/nvim-cmp'

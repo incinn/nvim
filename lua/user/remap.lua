@@ -7,3 +7,6 @@ nnoremap("<leader>ff", "<cmd>Telescope find_files<cr>")
 nnoremap("<leader>fg", "<cmd>Telescope live_grep<cr>")
 nnoremap("<leader>fb", "<cmd>Telescope buffers<cr>")
 nnoremap("<leader>fh", "<cmd>Telescope help_tags<cr>")
+
+-- formatting
+nnoremap("<leader>F", "<cmd>lua vim.lsp.buf.formatting()<cr>")
