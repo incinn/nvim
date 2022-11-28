@@ -44,5 +44,8 @@ return require('packer').startup(function(use)
   use 'L3MON4D3/LuaSnip'
 
   use 'akinsho/toggleterm.nvim'
+
+  -- Debugging
+  use 'mfussenegger/nvim-dap'
 end)
 
