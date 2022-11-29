@@ -55,4 +55,11 @@ Installed with `npm`:
 npm i -g vscode-langservers-extracted
 ```
 
+### Angular
+https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#angularls
+
+Installed with `npm`:
+```
+npm install -g @angular/language-server
+```
 

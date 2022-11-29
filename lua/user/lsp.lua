@@ -54,3 +54,9 @@ nvim_lsp.jsonls.setup {
     },
     root_dir = util.find_git_ancestor
 }
+
+nvim_lsp.angularls.setup {
+    cmd = { "ngserver", "--stdio", "--tsProbeLocations", "", "--ngProbeLocations", "" },
+    filetypes = { "typescript", "html", "typescriptreact", "typescript.tsx" },
+    root_dir = root_pattern("angular.json")
+}
