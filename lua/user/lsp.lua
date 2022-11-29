@@ -15,3 +15,20 @@ nvim_lsp.tsserver.setup {
     filetypes = { "typescript", "javascript" },
     cmd = { "typescript-language-server", "--stdio"}
 }
+
+nvim_lsp.cssls.setup {
+    cmd = { "vscode-css-language-server", "--stdio" },
+    filetypes = { "css", "scss", "less" },
+    root_dir = root_pattern("package.json", ".git") or bufdir,
+    settings = {
+        css = {
+            validate = true
+        },
+        less = {
+            validate = true
+        },
+        scss = {
+            validate = true
+        }
+    }
+}
