@@ -46,3 +46,13 @@ Install `eslint`
 #### Typescript
 `npm install -g typescript typescript-language-server`
 
+### CSS/SASS/HTML
+https://github.com/hrsh7th/vscode-langservers-extracted
+https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#cssls
+
+Installed with `npm`:
+```
+npm i -g vscode-langservers-extracted
+```
+
+
