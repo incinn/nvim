@@ -63,3 +63,8 @@ Installed with `npm`:
 npm install -g @angular/language-server
 ```
 
+### Prettier
+Install `prettierd`. 
+
+### Stylua
+install `stylua`.
